@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StaticArrayImplTest {
+class StaticArrayImplTest  {
 
 
     @Test
     void testingPushBack() {
-        StaticArray<Integer> array = new StaticArrayImpl<>(5);
+        Array<Integer> array = new StaticArray<>(5);
 
         assertEquals("[]",array.toString()) ;
 
@@ -38,7 +38,7 @@ class StaticArrayImplTest {
 
     @Test
     void testingPushFront() {
-        StaticArray<Integer> array = new StaticArrayImpl<>(5);
+        Array<Integer> array = new StaticArray<>(5);
 
         assertEquals("[]",array.toString()) ;
 
@@ -67,7 +67,7 @@ class StaticArrayImplTest {
 
     @Test
     void testingPushAt() {
-        StaticArray<Integer> array = new StaticArrayImpl<>(5);
+        Array<Integer> array = new StaticArray<>(5);
 
         assertEquals("[]",array.toString()) ;
 
